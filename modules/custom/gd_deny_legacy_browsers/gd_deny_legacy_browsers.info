@@ -1,0 +1,8 @@
+name = gd_deny_legacy_browsers
+description = Denies/warns end-users with truly outdated web browsers.
+core = 7.x
+package = Godel Design
+project = gd_deny_legacy_browsers
+dependencies[] = browscap
+dependencies[] = dynamic_cache
+dependencies[] = dynamic_cache_bootfix
