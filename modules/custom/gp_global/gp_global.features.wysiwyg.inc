@@ -31,6 +31,7 @@ function gp_global_wysiwyg_default_profiles() {
           'indent' => 1,
           'link' => 1,
           'unlink' => 1,
+          'styleselect' => 1,
           'code' => 1,
         ),
         'fullscreen' => array(
@@ -62,9 +63,8 @@ function gp_global_wysiwyg_default_profiles() {
       'block_formats' => 'p,address,pre,h2,h3,h4,h5,h6,div',
       'css_setting' => 'none',
       'css_path' => '',
-      'css_classes' => '',
+      'css_classes' => 'white=whitetext',
     ),
-    'metatags' => array(),
   );
 
   return $profiles;
