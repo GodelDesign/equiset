@@ -6,6 +6,11 @@
 
     $.each($('.block-titles .node'), function(i, el) {
       $(el).mouseenter(function(e) {
+        $(el)
+          .addClass('dark-title')
+          .siblings()
+          .removeClass('dark-title');
+
         $('.block-frontcontent .node')
           .stop()
           .hide()
