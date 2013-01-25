@@ -7,10 +7,14 @@
 @import "stub.less";
 @import "swiss.css";
 
-
 body {
-  .gradient-background;
+  background: url('gradient.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
 
 .page {
   margin-top: 20px;
@@ -57,6 +61,7 @@ body {
       }
     }
     &.block-frontcontent {
+      background: transparent;
       width: 100%;
       float: left;
       position: relative;
