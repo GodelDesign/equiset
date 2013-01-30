@@ -55,6 +55,26 @@ css[global.css.less][name] = Your custom global styles
 css[global.css.less][description] = This file holds all the globally active custom CSS of your theme.
 css[global.css.less][options][weight] = 10
 
+css[gp-theme-alpha-default.css.less][name] = My custom default styles
+css[gp-theme-alpha-default.css.less][description] = Global LESS CSS stylesheet.
+css[gp-theme-alpha-default.css.less][options][weight] = 10
+settings[alpha_css][gp-theme-alpha-default.css.less] = 'gp-theme-alpha-default.css.less'
+
+css[gp-theme-alpha-default-narrow.css.less][name] = My custom narrow styles
+css[gp-theme-alpha-default-narrow.css.less][description] = Narrow LESS CSS stylesheet.
+css[gp-theme-alpha-default-narrow.css.less][options][weight] = 10
+settings[alpha_css][gp-theme-alpha-default-narrow.css.less] = 'gp-theme-alpha-default-narrow.css.less'
+
+css[gp-theme-alpha-default-normal.css.less][name] = My custom normal styles
+css[gp-theme-alpha-default-normal.css.less][description] = Normal LESS CSS stylesheet.
+css[gp-theme-alpha-default-normal.css.less][options][weight] = 10
+settings[alpha_css][gp-theme-alpha-default-normal.css.less] = 'gp-theme-alpha-default-normal.css.less'
+
+css[gp-theme-alpha-default-wide.css.less][name] = My custom wide styles
+css[gp-theme-alpha-default-wide.css.less][description] = Wide LESS CSS stylesheet.
+css[gp-theme-alpha-default-wide.css.less][options][weight] = 10
+settings[alpha_css][gp-theme-alpha-default-wide.css.less] = 'gp-theme-alpha-default-wide.css.less'
+
 ; SCRIPTS
 
 ; A "lower level" javascript library than jQuery
@@ -66,8 +86,8 @@ scripts[] = js/jquery.carouFredSel-5.6.1-packed.js
 
 scripts[] = js/scripts.js
 
-scripts[] = js/coffeescript/domManipulation.class.coffee
-scripts[] = js/coffeescript/coffeescript.coffee
+; scripts[] = js/coffeescript/domManipulation.class.coffee
+; scripts[] = js/coffeescript/coffeescript.coffee
 
 
 ; THEME SETTINGS (DEFAULTS)

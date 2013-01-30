@@ -6,18 +6,21 @@
 
     $.each($('.block-titles .node'), function(i, el) {
       $(el).mouseenter(function(e) {
-        $(el)
+        thisEl = $(el);
+        allEl = $('.block-frontcontent .node');
+        toShow = allEl.eq(i);
+        thisEl
           .addClass('dark-title')
           .siblings()
           .removeClass('dark-title');
-
-        $('.block-frontcontent .node')
+        allEl
           .stop()
-          .hide()
-          .eq(i)
-          .fadeTo(400, 1);
+          .hide();
+        if (!$.browser.msie) {toShow.fadeTo(400, 1);
+          console.log(toShow);
+        }
+        else  {toShow.show();console.log('boo');}
       });
     });
   });
-
 })(jQuery);
